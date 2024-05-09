@@ -5,11 +5,11 @@ project(HelloApp
         LANGUAGES CXX)  
 
 #GLOBING
-file(GLOB_RECURSE SOURCE_FILES src/*.cpp)
-add_executable(HelloAppBinary main.cpp ${SOURCE_FILES})
+#file(GLOB_RECURSE SOURCE_FILES src/*.cpp)
+#add_executable(HelloAppBinary main.cpp ${SOURCE_FILES})
 
 #Target
-#add_executable(HelloAppBinary main.cpp src/dog.cpp src/operations.cpp)
+add_executable(HelloAppBinary main.cpp src/dog.cpp src/operations.cpp)
 
 
 target_compile_features(HelloAppBinary PRIVATE cxx_std_20)
