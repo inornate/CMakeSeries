@@ -4,7 +4,6 @@
 #include "log.h"
 
 int main(){
-
     double result = add(2,70);
     std::cout << "result : " << result << std::endl;
 
